@@ -14,7 +14,7 @@ if (plane_name_search.length == 1) {
     encodeURI("United "+plane_name)+
     "&btnI&as_sitesearch=seatguru.com"; // btnI = auto-pick first google result
   
-  linked_html = "<a href=\""+link+"\">"+name_element.outerHTML+"</a>";
+  linked_html = "<a href=\""+link+"\" target=\"_blank\">"+name_element.outerHTML+"</a>";
 
   // Finally, update element with the new html
   name_element.outerHTML = linked_html;
