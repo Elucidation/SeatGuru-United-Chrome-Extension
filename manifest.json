@@ -3,7 +3,7 @@
 
   "name": "SeatGuru United Seatmaps",
   "description": "This extension will add a SeatGuru seat map link when on a United webpage and viewing seatmaps.",
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {
